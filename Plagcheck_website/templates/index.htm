@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <title>Plagcheck</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Welcome to PlagCheck!
+        </h1>
+        <h3>
+            Avoid and check for plagarism using Plagcheck.
+        </h3>
+    </header>
+    <main>
+        <h3>Upload your files here!</h3>
+        <hr>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file"  name="text1" required>
+            <input type="file"  name="text2" required>
+            <input type="submit" value="submit" name="Submit">
+    </main>
+   
+</body>
+</html>

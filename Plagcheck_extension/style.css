@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+h1{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-family: 'Open sans', sans-serif;
+}
